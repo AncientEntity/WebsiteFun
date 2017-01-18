@@ -12,6 +12,7 @@ function Breaking(amount) {
 
 
 
+
 function BottomInfo() {
 	document.write("<center><div>");
 	Breaking(4);
