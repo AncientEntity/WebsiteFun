@@ -11,15 +11,18 @@ function Breaking(amount) {
 }
 
 
+
 function BottomInfo() {
-	Breaking(4);
-	document.write("<hr width='60%'/> ")
 	document.write("<center><div>");
+	Breaking(4);
+	document.write("<hr width='60%'/> ");
 	document.write("	<p>");
 	document.write("	This website was created using <strong>html</strong><br />		and thanks to <a href='http://github.com/'><strong>github</strong></a> we can host it freely.")
 	document.write("	</p>");
-	document.write("</div></center>");
+	document.write("<br /> <a href='#Top'>Back To Top.</a>")
 	Breaking(1);
+	document.write("</div></center>");
+
 }
 
 function TopMenu() {
@@ -41,3 +44,5 @@ function TopMenu() {
 	document.write("</center>");
 	
 }
+
+
